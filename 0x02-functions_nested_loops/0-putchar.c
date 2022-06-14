@@ -1,4 +1,4 @@
-#include "_putchar.h"
+#include "main.h"
 
 /**
  * _putchar - This prints _putchar on stdout
@@ -16,6 +16,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-
+	
 	return (0);
 }
