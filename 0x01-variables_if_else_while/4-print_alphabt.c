@@ -10,8 +10,12 @@ int main(void)
 	int ch;
 
 	for (ch = 97; ch <= 122; ch++)
+	{
 		if ((ch != 101) && (ch != 112))
+		{
 			putchar(ch);
-	putchar(10);
+		}
+		putchar(10);
+	}
 	return (0);
 }
