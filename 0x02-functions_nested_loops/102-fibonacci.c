@@ -19,10 +19,10 @@ int main(void)
 		printf("%d", a);
 		putchar(44);
 		putchar(32);
-		printf("\n");
 		result = a + b;
 		a = b;
 		b = result;
 	}
+	printf("\n");
 	return (0);
 }
