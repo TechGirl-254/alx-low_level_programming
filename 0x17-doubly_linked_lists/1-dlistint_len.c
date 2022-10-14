@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * print_dlistint - A function that prints all elements of a
+ * dlistint_len- A function that returns the number of elements in a
  * doubly linked list.
  *
  * @h: A pointer to the fist node of the doubly linked list
