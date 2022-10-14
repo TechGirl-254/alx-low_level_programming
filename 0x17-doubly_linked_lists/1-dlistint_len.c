@@ -20,6 +20,9 @@ size_t dlistint_len(const dlistint_t *h)
 	i = 0;
 
 	while (ptr != NULL)
+	{
+		ptr = ptr->next;
 		i += 1;
+	}
 	return (i);
 }
